@@ -1,0 +1,7 @@
+---
+# some text
+- name: Install the VPC
+  ec2_vpc_net:
+    name: test123
+    state: present
+    region: '{{ region_var }}'
